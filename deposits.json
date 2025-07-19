@@ -1,0 +1,217 @@
+{
+  "ruble": [
+    {
+      "bankName": "ПСБ",
+      "productName": "Народный вклад",
+      "rate": 30.0,
+      "minAmount": 50000,
+      "maxAmount": 50000000,
+      "term": "91–367 дн.",
+      "termDays": 365,
+      "currency": "RUB",
+      "link": "https://www.psbb.ru/deposits/vklady/narodnyj/",
+      "isSpecialOffer": true,
+      "conditions": [
+        "Новые клиенты",
+        "Онлайн"
+      ],
+      "advantages": [
+        "Максимальная ставка"
+      ]
+    },
+    {
+      "bankName": "Дом.РФ",
+      "productName": "Надежный промо",
+      "rate": 30.0,
+      "minAmount": 10000,
+      "maxAmount": 100000,
+      "term": "30 дн.",
+      "termDays": 30,
+      "currency": "RUB",
+      "link": "https://domrf.ru/deposit/promo/",
+      "isSpecialOffer": true,
+      "conditions": [
+        "Онлайн"
+      ],
+      "advantages": [
+        "Бонусная ставка"
+      ]
+    },
+    {
+      "bankName": "Ак Барс Банк",
+      "productName": "Жаркий процент",
+      "rate": 31.0,
+      "minAmount": 10000,
+      "maxAmount": 50000,
+      "term": "91 дн.",
+      "termDays": 91,
+      "currency": "RUB",
+      "link": "https://akbars.ru/deposits/zharkiy-procent/",
+      "isSpecialOffer": true,
+      "conditions": [
+        "Только офлайн Татарстан"
+      ],
+      "advantages": [
+        "Высокая ставка"
+      ]
+    },
+    {
+      "bankName": "МКБ",
+      "productName": "Преимущество+",
+      "rate": 23.0,
+      "minAmount": 10000,
+      "maxAmount": 1000000,
+      "term": "90 дн.",
+      "termDays": 90,
+      "currency": "RUB",
+      "link": "https://mkb.ru/deposits/preimushchestvo-plus/",
+      "isSpecialOffer": true,
+      "conditions": [
+        "Новые клиенты"
+      ],
+      "advantages": [
+        "Привлекательный доход"
+      ]
+    },
+    {
+      "bankName": "Локо-Банк",
+      "productName": "Локо-Вклад",
+      "rate": 20.5,
+      "minAmount": 300000,
+      "maxAmount": 30000000,
+      "term": "182 дн.",
+      "termDays": 182,
+      "currency": "RUB",
+      "link": "https://loko-bank.ru/deposits/loko-vklad/",
+      "isSpecialOffer": false,
+      "conditions": [
+        "Онлайн"
+      ],
+      "advantages": [
+        "Удобно"
+      ]
+    },
+    {
+      "bankName": "МТС Банк",
+      "productName": "МТС Деньги",
+      "rate": 23.0,
+      "minAmount": 10000,
+      "maxAmount": 2000000,
+      "term": "300 дн.",
+      "termDays": 300,
+      "currency": "RUB",
+      "link": "https://www.mtsbank.ru/deposits/mts-dengi/",
+      "isSpecialOffer": false,
+      "conditions": [],
+      "advantages": [
+        "Доход + кэшбэк"
+      ]
+    },
+    {
+      "bankName": "Газпромбанк",
+      "productName": "ГПБ вклад",
+      "rate": 20.5,
+      "minAmount": 5000,
+      "maxAmount": 1500000,
+      "term": "61 дн.",
+      "termDays": 61,
+      "currency": "RUB",
+      "link": "https://gpbank.ru/deposits/gpb-vklad/",
+      "isSpecialOffer": false,
+      "conditions": [],
+      "advantages": [
+        "Высокая ставка"
+      ]
+    },
+    {
+      "bankName": "Ozon Банк",
+      "productName": "Вклад Онлайн",
+      "rate": 20.0,
+      "minAmount": 1,
+      "maxAmount": 5000000,
+      "term": "61 дн.",
+      "termDays": 61,
+      "currency": "RUB",
+      "link": "https://ozonbank.ru/deposits/online-vklad/",
+      "isSpecialOffer": false,
+      "conditions": [
+        "Низкий порог"
+      ],
+      "advantages": [
+        "Доступный"
+      ]
+    },
+    {
+      "bankName": "ЦМРБанк",
+      "productName": "Максимум+",
+      "rate": 19.0,
+      "minAmount": 50000,
+      "maxAmount": null,
+      "term": "367 дн.",
+      "termDays": 367,
+      "currency": "RUB",
+      "link": "https://cmrbank.ru/deposits/maksimum-plus/",
+      "isSpecialOffer": false,
+      "conditions": [],
+      "advantages": [
+        "Долгий срок"
+      ]
+    },
+    {
+      "bankName": "СДМ-Банк",
+      "productName": "Новое знакомство",
+      "rate": 16.5,
+      "minAmount": 100000,
+      "maxAmount": 1500000,
+      "term": "181 дн.",
+      "termDays": 181,
+      "currency": "RUB",
+      "link": "https://sdm.ru/deposits/novoe-znakomstvo/",
+      "isSpecialOffer": true,
+      "conditions": [
+        "Новые клиенты"
+      ],
+      "advantages": [
+        "Стабильная ставка"
+      ]
+    }
+  ],
+  "currency": [
+    {
+      "bankName": "Райффайзенбанк",
+      "productName": "Валютный вклад USD",
+      "rate": 4.5,
+      "minAmount": 1000,
+      "maxAmount": null,
+      "term": "12 мес.",
+      "termDays": 365,
+      "currency": "USD",
+      "link": "https://www.raiffeisen.ru/retail/deposits/currency/",
+      "isSpecialOffer": false,
+      "conditions": [
+        "Мин. $1000"
+      ],
+      "advantages": [
+        "Стабильная ставка"
+      ]
+    },
+    {
+      "bankName": "ВТБ",
+      "productName": "Валютный максимум USD",
+      "rate": 4.0,
+      "minAmount": 500,
+      "maxAmount": null,
+      "term": "6 мес.",
+      "termDays": 180,
+      "currency": "USD",
+      "link": "https://www.vtb.ru/personal/vklady-i-scheta/valyutnye-vklady/",
+      "isSpecialOffer": false,
+      "conditions": [
+        "От $500"
+      ],
+      "advantages": [
+        "Низкий порог"
+      ]
+    }
+  ]
+}
