@@ -282,6 +282,45 @@
         "reliabilityLevel": "veryHigh"
       },
       {
+        "ticker": "MRKP",
+        "name": "Россети Центр",
+        "price": 0.45,
+        "dividendYield": 10.9,
+        "pe": 7.2,
+        "marketCap": 19000000000,
+        "sector": "Электроэнергетика",
+        "description": "Распределительная сетевая компания",
+        "link": "https://www.mrsk-cp.ru/investors/",
+        "isBlueChip": false,
+        "reliabilityLevel": "high"
+      },
+      {
+        "ticker": "MSRS",
+        "name": "Россети Моск. Регион",
+        "price": 1.85,
+        "dividendYield": 10.9,
+        "pe": 6.5,
+        "marketCap": 90000000000,
+        "sector": "Электроэнергетика",
+        "description": "Московский регион электросети",
+        "link": "https://www.mrsk-mo.ru/investors/",
+        "isBlueChip": false,
+        "reliabilityLevel": "high"
+      },
+      {
+        "ticker": "EUTR",
+        "name": "ЕвроТранс",
+        "price": 110.5,
+        "dividendYield": 11.4,
+        "pe": 9.3,
+        "marketCap": 65000000000,
+        "sector": "Транспорт",
+        "description": "Железнодорожный оператор",
+        "link": "https://eurotrans-logistics.ru/investor-relations",
+        "isBlueChip": false,
+        "reliabilityLevel": "medium"
+      },
+      {
         "ticker": "OGKB",
         "name": "ОГК‑2",
         "price": 0.95,
@@ -292,6 +331,45 @@
         "description": "Генерирующая компания",
         "link": "https://www.ogk2.ru/investors/",
         "isBlueChip": false,
+        "reliabilityLevel": "high"
+      },
+      {
+        "ticker": "BGNE",
+        "name": "Башнефть",
+        "price": 2450.0,
+        "dividendYield": 8.5,
+        "pe": 12.1,
+        "marketCap": 430000000000,
+        "sector": "Нефть и газ",
+        "description": "Нефтяная компания",
+        "link": "https://www.bashneft.ru/investors/",
+        "isBlueChip": true,
+        "reliabilityLevel": "high"
+      },
+      {
+        "ticker": "SIBN",
+        "name": "Газпромнефть",
+        "price": 850.5,
+        "dividendYield": 5.2,
+        "pe": 8.7,
+        "marketCap": 4000000000000,
+        "sector": "Нефть и газ",
+        "description": "Нефтяная компания Газпрома",
+        "link": "https://www.gazprom-neft.ru/investors/",
+        "isBlueChip": true,
+        "reliabilityLevel": "veryHigh"
+      },
+      {
+        "ticker": "PHOR",
+        "name": "ФосАгро",
+        "price": 6200.0,
+        "dividendYield": 3.3,
+        "pe": 15.4,
+        "marketCap": 800000000000,
+        "sector": "Химия и нефтехимия",
+        "description": "Производитель удобрений",
+        "link": "https://www.phosagro.com/investors/",
+        "isBlueChip": true,
         "reliabilityLevel": "high"
       }
     ]
@@ -323,6 +401,84 @@
         "link": "https://www.tbank.ru/invest/bonds/RU000A105VU7/",
         "isGovernment": false,
         "reliabilityLevel": "medium"
+      },
+      {
+        "name": "ГК Самолет выпуск 13",
+        "issuer": "ГК Самолет",
+        "coupon": 26.77,
+        "yield": 16.8,
+        "maturity": "2026-02-03",
+        "price": 100.5,
+        "minAmount": 1000,
+        "description": "Облигации девелопера Самолет",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107RZ0/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
+      },
+      {
+        "name": "Эталон-Финанс выпуск 3",
+        "issuer": "Эталон-Финанс",
+        "coupon": 12.0,
+        "yield": 16.5,
+        "maturity": "2026-09-15",
+        "price": 98.2,
+        "minAmount": 1000,
+        "description": "Облигации Эталон-Финанс",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A103QH9/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
+      },
+      {
+        "name": "Брусника 002Р-05",
+        "issuer": "Брусника",
+        "coupon": 24.16,
+        "yield": 17.8,
+        "maturity": "2026-09-14",
+        "price": 99.1,
+        "minAmount": 1000,
+        "description": "Облигации девелопера Брусника",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A10B313/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
+      },
+      {
+        "name": "Биннофарм Групп 001P-03",
+        "issuer": "Биннофарм Групп",
+        "coupon": 25.36,
+        "yield": 18.2,
+        "maturity": "2025-09-15",
+        "price": 100.8,
+        "minAmount": 1000,
+        "description": "Облигации фармацевтической компании",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107E81/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
+      },
+      {
+        "name": "ПАО «КАМАЗ» БО-П14",
+        "issuer": "КАМАЗ",
+        "coupon": 22.86,
+        "yield": 17.1,
+        "maturity": "2025-09-15",
+        "price": 99.5,
+        "minAmount": 1000,
+        "description": "Облигации автопроизводителя КАМАЗ",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A10ASW4/",
+        "isGovernment": false,
+        "reliabilityLevel": "high"
+      },
+      {
+        "name": "МТС-Банк выпуск 001P-0",
+        "issuer": "МТС Банк",
+        "coupon": 26.93,
+        "yield": 17.9,
+        "maturity": "2026-10-21",
+        "price": 101.0,
+        "minAmount": 1000,
+        "description": "Банковские облигации МТС Банк",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107456/",
+        "isGovernment": false,
+        "reliabilityLevel": "high"
       },
       {
         "name": "ОФЗ 29007",
@@ -364,6 +520,66 @@
         "description": "Активно управляемый фонд облигаций",
         "link": "https://www.alfacapital.ru/funds/41",
         "reliabilityLevel": "high"
+      },
+      {
+        "name": "Фонд Казначейский – ВИМ Инвестиции",
+        "manager": "ВИМ Инвестиции",
+        "type": "Денежного рынка",
+        "return1Y": 19.1,
+        "risk": "Минимальный",
+        "minAmount": 1000,
+        "commission": 0.5,
+        "description": "Консервативный фонд денежного рынка",
+        "link": "https://vim-asset.ru/funds/treasury/",
+        "reliabilityLevel": "veryHigh"
+      },
+      {
+        "name": "Первая – Фонд накопительный",
+        "manager": "УК Первая",
+        "type": "Смешанный",
+        "return1Y": 18.22,
+        "risk": "Низкий",
+        "minAmount": 5000,
+        "commission": 1.8,
+        "description": "Сбалансированный накопительный фонд",
+        "link": "https://www.pervaya.ru/funds/NF/",
+        "reliabilityLevel": "high"
+      },
+      {
+        "name": "БКС Консервативный",
+        "manager": "БКС",
+        "type": "Облигационный",
+        "return1Y": 16.02,
+        "risk": "Низкий",
+        "minAmount": 10000,
+        "commission": 1.2,
+        "description": "Консервативный фонд облигаций",
+        "link": "https://bcs.ru/am/funds/obligacii",
+        "reliabilityLevel": "high"
+      },
+      {
+        "name": "Райффайзен – Корпоративные облигации",
+        "manager": "Райффайзен Капитал",
+        "type": "Облигационный",
+        "return1Y": 15.01,
+        "risk": "Средний",
+        "minAmount": 50000,
+        "commission": 2.5,
+        "description": "Фонд корпоративных облигаций",
+        "link": "https://www.raiffeisen-capital.ru/funds/corpbonds/",
+        "reliabilityLevel": "high"
+      },
+      {
+        "name": "Ингосстрах – Инфляционный",
+        "manager": "Ингосстрах Инвестиции",
+        "type": "Облигационный",
+        "return1Y": 3.03,
+        "risk": "Минимальный",
+        "minAmount": 100000,
+        "commission": 0.8,
+        "description": "Защита от инфляции",
+        "link": "https://www.ingosinvest.ru/retail/funds/inflation/",
+        "reliabilityLevel": "veryHigh"
       }
     ]
   },
@@ -420,6 +636,13 @@
         "reliabilityLevel": "high"
       }
     ]
+  },
+  "exchangeRates": {
+    "USD": 78.3129,
+    "EUR": 91.0821,
+    "GBP": 96.2345,
+    "CNY": 10.7812,
+    "JPY": 0.5234
   },
   "disclaimer": "Данные предоставлены в информационных целях. Актуальные условия уточняйте у эмитентов и управляющих компаний."
 }
