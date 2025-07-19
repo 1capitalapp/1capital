@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2025-07-14T12:00:00Z",
+  "lastUpdated": "2025-01-19T12:00:00Z",
   "keyRate": 21.0,
   "deposits": {
     "ruble": [
@@ -185,7 +185,7 @@
         "maxAmount": 1000000,
         "conditions": "3 мес. повышенная ставка",
         "additionalInfo": "Ежедневное начисление",
-        "description": "24 % первые 3 месяца новым клиентам.",
+        "description": "24 % первые 3 месяца новым клиентам.",
         "link": "https://www.vtb.ru/personal/vklady-i-scheta/nakopitelnyj-schet/",
         "isSpecialOffer": true,
         "reliabilityLevel": "veryHigh"
@@ -197,7 +197,7 @@
         "maxAmount": 1500000,
         "conditions": "2 мес. повышенная ставка",
         "additionalInfo": "Ежедневно",
-        "description": "24 % первые 2 месяца остатка.",
+        "description": "24 % первые 2 месяца остатка.",
         "link": "https://gpbank.ru/accounts/savings/",
         "isSpecialOffer": true,
         "reliabilityLevel": "veryHigh"
@@ -209,7 +209,7 @@
         "maxAmount": 1000000,
         "conditions": "2 мес.",
         "additionalInfo": "Ежедневно",
-        "description": "23 % первые 2 месяца.",
+        "description": "23 % первые 2 месяца.",
         "link": "https://tkbbank.ru/accounts/savings/",
         "isSpecialOffer": true,
         "reliabilityLevel": "high"
@@ -221,7 +221,7 @@
         "maxAmount": 1500000,
         "conditions": "4 мес.",
         "additionalInfo": "Ежедневно",
-        "description": "22 % первые 4 месяца.",
+        "description": "22 % первые 4 месяца.",
         "link": "https://ubr.ru/savings/promo/",
         "isSpecialOffer": true,
         "reliabilityLevel": "high"
@@ -233,74 +233,66 @@
         "maxAmount": 2000000,
         "conditions": "2 мес.",
         "additionalInfo": "Ежедневно",
-        "description": "22 % первые 2 месяца.",
+        "description": "22 % первые 2 месяца.",
         "link": "https://www.mtsbank.ru/accounts/savings/",
         "isSpecialOffer": true,
         "reliabilityLevel": "high"
-       }
+      }
     ]
   },
-   "stocks": {
+  "stocks": {
     "items": [
       {
         "ticker": "MTSS",
         "name": "МТС",
+        "price": 320.5,
         "dividendYield": 15.4,
-        "link": "https://moskva.mts.ru/about/investoram-i-akcioneram"
+        "pe": 6.8,
+        "marketCap": 640000000000,
+        "sector": "Телекоммуникации",
+        "description": "Крупнейший оператор связи в России",
+        "link": "https://moskva.mts.ru/about/investoram-i-akcioneram",
+        "isBlueChip": true,
+        "reliabilityLevel": "veryHigh"
       },
       {
         "ticker": "SBER",
         "name": "Сбербанк",
+        "price": 270.8,
         "dividendYield": 11.0,
-        "link": "https://www.sberbank.com/ru/investor-relations"
+        "pe": 5.2,
+        "marketCap": 5800000000000,
+        "sector": "Финансы",
+        "description": "Крупнейший банк России",
+        "link": "https://www.sberbank.com/ru/investor-relations",
+        "isBlueChip": true,
+        "reliabilityLevel": "veryHigh"
       },
       {
         "ticker": "MOEX",
         "name": "МосБиржа",
+        "price": 200.3,
         "dividendYield": 13.7,
-        "link": "https://www.moex.com/ru/investor_relations"
-      },
-      {
-        "ticker": "MRKP",
-        "name": "Россети Центр",
-        "dividendYield": 10.9,
-        "link": "https://www.mrsk-cp.ru/investors/"
-      },
-      {
-        "ticker": "MSRS",
-        "name": "Россети Моск. Регион",
-        "dividendYield": 10.9,
-        "link": "https://www.mrsk-mo.ru/investors/"
-      },
-      {
-        "ticker": "EUTR",
-        "name": "ЕвроТранс",
-        "dividendYield": 11.4,
-        "link": "https://eurotrans-logistics.ru/investor-relations"
+        "pe": 8.1,
+        "marketCap": 450000000000,
+        "sector": "Финансы",
+        "description": "Московская биржа",
+        "link": "https://www.moex.com/ru/investor_relations",
+        "isBlueChip": true,
+        "reliabilityLevel": "veryHigh"
       },
       {
         "ticker": "OGKB",
         "name": "ОГК‑2",
+        "price": 0.95,
         "dividendYield": 17.7,
-        "link": "https://www.ogk2.ru/investors/"
-      },
-      {
-        "ticker": "BGNE",
-        "name": "Башнефть",
-        "dividendYield": 8.5,
-        "link": "https://www.bashneft.ru/investors/"
-      },
-      {
-        "ticker": "SIBN",
-        "name": "Газпромнефть",
-        "dividendYield": 5.2,
-        "link": "https://www.gazprom-neft.ru/investors/"
-      },
-      {
-        "ticker": "PHOR",
-        "name": "ФосАгро",
-        "dividendYield": 3.3,
-        "link": "https://www.phosagro.com/investors/"
+        "pe": 4.5,
+        "marketCap": 104000000000,
+        "sector": "Электроэнергетика",
+        "description": "Генерирующая компания",
+        "link": "https://www.ogk2.ru/investors/",
+        "isBlueChip": false,
+        "reliabilityLevel": "high"
       }
     ]
   },
@@ -308,73 +300,42 @@
     "items": [
       {
         "name": "АФК Система выпуск 7",
-        "issuer": "АФК Систем",
+        "issuer": "АФК Система",
         "coupon": 32.92,
+        "yield": 17.5,
         "maturity": "2026-07-29",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A0ZYQY7/"
+        "price": 101.2,
+        "minAmount": 1000,
+        "description": "Корпоративная облигация АФК Система",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A0ZYQY7/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
       },
       {
         "name": "Эталон выпуск 002Р-01",
         "issuer": "Эталон-Финанс",
         "coupon": 27.18,
+        "yield": 17.2,
         "maturity": "2026-02-20",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A105VU7/"
-      },
-      {
-        "name": "ГК Самолет выпуск 13",
-        "issuer": "ГК Самолет",
-        "coupon": 26.77,
-        "maturity": "2026-02-03",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A107RZ0/"
-      },
-      {
-        "name": "Эталон-Финанс выпуск 3",
-        "issuer": "Эталон-Финанс",
-        "coupon": 12.0,
-        "maturity": "2026-09-15",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A103QH9/"
-      },
-      {
-        "name": "Брусника 002Р-05",
-        "issuer": "Брусника",
-        "coupon": 24.16,
-        "maturity": "2026-09-14",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A10B313/"
-      },
-      {
-        "name": "Биннофарм Групп 001P-03",
-        "issuer": "Биннофарм Групп",
-        "coupon": 25.36,
-        "maturity": "2025-09-15",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A107E81/"
-      },
-      {
-        "name": "Биннофарм Групп 001P-03",
-        "issuer": "Биннофарм Групп",
-        "coupon": 23.33,
-        "maturity": "2025-09-15",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A107E81/"
-      },
-      {
-        "name": "ПАО «КАМАЗ» БО-П14",
-        "issuer": "КАМАЗ",
-        "coupon": 22.86,
-        "maturity": "2025-09-15",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A10ASW4/"
-      },
-      {
-        "name": "МТС-Банк выпуск 001P-0",
-        "issuer": "МТС Банк",
-        "coupon": 26.93,
-        "maturity": "2026-10-21",
-        "link": "https://www.tbank.ru/invest/bonds/RU000A107456/"
+        "price": 99.8,
+        "minAmount": 1000,
+        "description": "Облигации девелопера Эталон",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A105VU7/",
+        "isGovernment": false,
+        "reliabilityLevel": "medium"
       },
       {
         "name": "ОФЗ 29007",
-        "issuer": "ОФЗ",
+        "issuer": "Минфин России",
         "coupon": 19.09,
+        "yield": 16.8,
         "maturity": "2027-03-03",
-        "link": "https://www.tbank.ru/invest/bonds/SU29007RMFS0/"
+        "price": 95.6,
+        "minAmount": 1000,
+        "description": "Государственная облигация РФ",
+        "link": "https://www.tbank.ru/invest/bonds/SU29007RMFS0/",
+        "isGovernment": true,
+        "reliabilityLevel": "veryHigh"
       }
     ]
   },
@@ -382,38 +343,27 @@
     "items": [
       {
         "name": "Первая – Фонд российских облигаций",
+        "manager": "УК Первая",
+        "type": "Облигационный",
         "return1Y": 20.18,
-        "link": "https://www.pervaya.ru/funds/ROF/"
+        "risk": "Низкий",
+        "minAmount": 10000,
+        "commission": 1.5,
+        "description": "ПИФ облигаций российских эмитентов",
+        "link": "https://www.pervaya.ru/funds/ROF/",
+        "reliabilityLevel": "high"
       },
       {
         "name": "Альфа‑Капитал Управляемые облигации",
+        "manager": "Альфа-Капитал",
+        "type": "Облигационный",
         "return1Y": 19.8,
-        "link": "https://www.alfacapital.ru/funds/41"
-      },
-      {
-        "name": "Фонд Казначейский – ВИМ Инвестиции",
-        "return1Y": 19.1,
-        "link": "https://vim-asset.ru/funds/treasury/"
-      },
-      {
-        "name": "Первая – Фонд накопительный",
-        "return1Y": 18.22,
-        "link": "https://www.pervaya.ru/funds/NF/"
-      },
-      {
-        "name": "БКС Консервативный",
-        "return1Y": 16.02,
-        "link": "https://bcs.ru/am/funds/obligacii"
-      },
-      {
-        "name": "Райффайзен – Корпоративные облигации",
-        "return1Y": 15.01,
-        "link": "https://www.raiffeisen-capital.ru/funds/corpbonds/"
-      },
-      {
-        "name": "Ингосстрах – Инфляционный",
-        "return1Y": 3.03,
-        "link": "https://www.ingosinvest.ru/retail/funds/inflation/"
+        "risk": "Низкий",
+        "minAmount": 10000,
+        "commission": 2.0,
+        "description": "Активно управляемый фонд облигаций",
+        "link": "https://www.alfacapital.ru/funds/41",
+        "reliabilityLevel": "high"
       }
     ]
   },
@@ -447,24 +397,24 @@
     "items": [
       {
         "platform": "Поток",
-        "name": "автоматическая стратегия",
+        "name": "Автоматическая стратегия",
         "type": "Business loans",
         "targetReturn": 20.0,
-        "term": "—",
-        "minAmount": null,
-        "collected": null,
+        "term": "12 мес.",
+        "minAmount": 10000,
+        "collected": 0,
         "description": "До 20% годовых",
         "link": "https://potok.digital/",
         "reliabilityLevel": "medium"
       },
       {
         "platform": "Penenza",
-        "name": "краудлендинг бизнес",
+        "name": "Краудлендинг бизнес",
         "type": "Business loans",
-        "targetReturn": null,
-        "term": "—",
-        "minAmount": null,
-        "collected": null,
+        "targetReturn": 18.0,
+        "term": "6-24 мес.",
+        "minAmount": 10000,
+        "collected": 0,
         "description": "P2B платформа, надёжность ЦБ",
         "link": "https://penenza.ru/",
         "reliabilityLevel": "high"
