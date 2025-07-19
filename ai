@@ -1,0 +1,474 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-07-14T12:00:00Z",
+  "keyRate": 21.0,
+  "deposits": {
+    "ruble": [
+      {
+        "bankName": "ПСБ",
+        "productName": "Народный вклад",
+        "rate": 30.0,
+        "minAmount": 50000,
+        "maxAmount": 50000000,
+        "term": "91–367 дн.",
+        "termDays": 365,
+        "currency": "RUB",
+        "link": "https://www.psbb.ru/deposits/vklady/narodnyj/",
+        "isSpecialOffer": true,
+        "conditions": ["Новые клиенты", "Онлайн"],
+        "advantages": ["Максимальная ставка"]
+      },
+      {
+        "bankName": "Дом.РФ",
+        "productName": "Надежный промо",
+        "rate": 30.0,
+        "minAmount": 10000,
+        "maxAmount": 100000,
+        "term": "30 дн.",
+        "termDays": 30,
+        "currency": "RUB",
+        "link": "https://domrf.ru/deposit/promo/",
+        "isSpecialOffer": true,
+        "conditions": ["Онлайн"],
+        "advantages": ["Бонусная ставка"]
+      },
+      {
+        "bankName": "Ак Барс Банк",
+        "productName": "Жаркий процент",
+        "rate": 31.0,
+        "minAmount": 10000,
+        "maxAmount": 50000,
+        "term": "91 дн.",
+        "termDays": 91,
+        "currency": "RUB",
+        "link": "https://akbars.ru/deposits/zharkiy-procent/",
+        "isSpecialOffer": true,
+        "conditions": ["Только офлайн Татарстан"],
+        "advantages": ["Высокая ставка"]
+      },
+      {
+        "bankName": "МКБ",
+        "productName": "Преимущество+",
+        "rate": 23.0,
+        "minAmount": 10000,
+        "maxAmount": 1000000,
+        "term": "90 дн.",
+        "termDays": 90,
+        "currency": "RUB",
+        "link": "https://mkb.ru/deposits/preimushchestvo-plus/",
+        "isSpecialOffer": true,
+        "conditions": ["Новые клиенты"],
+        "advantages": ["Привлекательный доход"]
+      },
+      {
+        "bankName": "Локо-Банк",
+        "productName": "Локо-Вклад",
+        "rate": 20.5,
+        "minAmount": 300000,
+        "maxAmount": 30000000,
+        "term": "182 дн.",
+        "termDays": 182,
+        "currency": "RUB",
+        "link": "https://loko-bank.ru/deposits/loko-vklad/",
+        "isSpecialOffer": false,
+        "conditions": ["Онлайн"],
+        "advantages": ["Удобно"]
+      },
+      {
+        "bankName": "МТС Банк",
+        "productName": "МТС Деньги",
+        "rate": 23.0,
+        "minAmount": 10000,
+        "maxAmount": 2000000,
+        "term": "300 дн.",
+        "termDays": 300,
+        "currency": "RUB",
+        "link": "https://www.mtsbank.ru/deposits/mts-dengi/",
+        "isSpecialOffer": false,
+        "conditions": [],
+        "advantages": ["Доход + кэшбэк"]
+      },
+      {
+        "bankName": "Газпромбанк",
+        "productName": "ГПБ вклад",
+        "rate": 20.5,
+        "minAmount": 5000,
+        "maxAmount": 1500000,
+        "term": "61 дн.",
+        "termDays": 61,
+        "currency": "RUB",
+        "link": "https://gpbank.ru/deposits/gpb-vklad/",
+        "isSpecialOffer": false,
+        "conditions": [],
+        "advantages": ["Высокая ставка"]
+      },
+      {
+        "bankName": "Ozon Банк",
+        "productName": "Вклад Онлайн",
+        "rate": 20.0,
+        "minAmount": 1,
+        "maxAmount": 5000000,
+        "term": "61 дн.",
+        "termDays": 61,
+        "currency": "RUB",
+        "link": "https://ozonbank.ru/deposits/online-vklad/",
+        "isSpecialOffer": false,
+        "conditions": ["Низкий порог"],
+        "advantages": ["Доступный"]
+      },
+      {
+        "bankName": "ЦМРБанк",
+        "productName": "Максимум+",
+        "rate": 19.0,
+        "minAmount": 50000,
+        "maxAmount": null,
+        "term": "367 дн.",
+        "termDays": 367,
+        "currency": "RUB",
+        "link": "https://cmrbank.ru/deposits/maksimum-plus/",
+        "isSpecialOffer": false,
+        "conditions": [],
+        "advantages": ["Долгий срок"]
+      },
+      {
+        "bankName": "СДМ-Банк",
+        "productName": "Новое знакомство",
+        "rate": 16.5,
+        "minAmount": 100000,
+        "maxAmount": 1500000,
+        "term": "181 дн.",
+        "termDays": 181,
+        "currency": "RUB",
+        "link": "https://sdm.ru/deposits/novoe-znakomstvo/",
+        "isSpecialOffer": true,
+        "conditions": ["Новые клиенты"],
+        "advantages": ["Стабильная ставка"]
+      }
+    ],
+    "currency": [
+      {
+        "bankName": "Райффайзенбанк",
+        "productName": "Валютный вклад USD",
+        "rate": 4.5,
+        "minAmount": 1000,
+        "maxAmount": null,
+        "term": "12 мес.",
+        "termDays": 365,
+        "currency": "USD",
+        "link": "https://www.raiffeisen.ru/retail/deposits/currency/",
+        "isSpecialOffer": false,
+        "conditions": ["Мин. $1000"],
+        "advantages": ["Стабильная ставка"]
+      },
+      {
+        "bankName": "ВТБ",
+        "productName": "Валютный максимум USD",
+        "rate": 4.0,
+        "minAmount": 500,
+        "maxAmount": null,
+        "term": "6 мес.",
+        "termDays": 180,
+        "currency": "USD",
+        "link": "https://www.vtb.ru/personal/vklady-i-scheta/valyutnye-vklady/",
+        "isSpecialOffer": false,
+        "conditions": ["От $500"],
+        "advantages": ["Низкий порог"]
+      }
+    ]
+  },
+  "savingsAccounts": {
+    "accounts": [
+      {
+        "bankName": "ВТБ",
+        "productName": "ВТБ‑Счет",
+        "rate": 24.0,
+        "maxAmount": 1000000,
+        "conditions": "3 мес. повышенная ставка",
+        "additionalInfo": "Ежедневное начисление",
+        "description": "24 % первые 3 месяца новым клиентам.",
+        "link": "https://www.vtb.ru/personal/vklady-i-scheta/nakopitelnyj-schet/",
+        "isSpecialOffer": true,
+        "reliabilityLevel": "veryHigh"
+      },
+      {
+        "bankName": "Газпромбанк",
+        "productName": "Накопительный счет",
+        "rate": 24.0,
+        "maxAmount": 1500000,
+        "conditions": "2 мес. повышенная ставка",
+        "additionalInfo": "Ежедневно",
+        "description": "24 % первые 2 месяца остатка.",
+        "link": "https://gpbank.ru/accounts/savings/",
+        "isSpecialOffer": true,
+        "reliabilityLevel": "veryHigh"
+      },
+      {
+        "bankName": "ТКБ",
+        "productName": "ТКБ. Выгодный",
+        "rate": 23.0,
+        "maxAmount": 1000000,
+        "conditions": "2 мес.",
+        "additionalInfo": "Ежедневно",
+        "description": "23 % первые 2 месяца.",
+        "link": "https://tkbbank.ru/accounts/savings/",
+        "isSpecialOffer": true,
+        "reliabilityLevel": "high"
+      },
+      {
+        "bankName": "УБРиР",
+        "productName": "Промо",
+        "rate": 22.0,
+        "maxAmount": 1500000,
+        "conditions": "4 мес.",
+        "additionalInfo": "Ежедневно",
+        "description": "22 % первые 4 месяца.",
+        "link": "https://ubr.ru/savings/promo/",
+        "isSpecialOffer": true,
+        "reliabilityLevel": "high"
+      },
+      {
+        "bankName": "МТС Банк",
+        "productName": "МТС счет",
+        "rate": 22.0,
+        "maxAmount": 2000000,
+        "conditions": "2 мес.",
+        "additionalInfo": "Ежедневно",
+        "description": "22 % первые 2 месяца.",
+        "link": "https://www.mtsbank.ru/accounts/savings/",
+        "isSpecialOffer": true,
+        "reliabilityLevel": "high"
+       }
+    ]
+  },
+   "stocks": {
+    "items": [
+      {
+        "ticker": "MTSS",
+        "name": "МТС",
+        "dividendYield": 15.4,
+        "link": "https://moskva.mts.ru/about/investoram-i-akcioneram"
+      },
+      {
+        "ticker": "SBER",
+        "name": "Сбербанк",
+        "dividendYield": 11.0,
+        "link": "https://www.sberbank.com/ru/investor-relations"
+      },
+      {
+        "ticker": "MOEX",
+        "name": "МосБиржа",
+        "dividendYield": 13.7,
+        "link": "https://www.moex.com/ru/investor_relations"
+      },
+      {
+        "ticker": "MRKP",
+        "name": "Россети Центр",
+        "dividendYield": 10.9,
+        "link": "https://www.mrsk-cp.ru/investors/"
+      },
+      {
+        "ticker": "MSRS",
+        "name": "Россети Моск. Регион",
+        "dividendYield": 10.9,
+        "link": "https://www.mrsk-mo.ru/investors/"
+      },
+      {
+        "ticker": "EUTR",
+        "name": "ЕвроТранс",
+        "dividendYield": 11.4,
+        "link": "https://eurotrans-logistics.ru/investor-relations"
+      },
+      {
+        "ticker": "OGKB",
+        "name": "ОГК‑2",
+        "dividendYield": 17.7,
+        "link": "https://www.ogk2.ru/investors/"
+      },
+      {
+        "ticker": "BGNE",
+        "name": "Башнефть",
+        "dividendYield": 8.5,
+        "link": "https://www.bashneft.ru/investors/"
+      },
+      {
+        "ticker": "SIBN",
+        "name": "Газпромнефть",
+        "dividendYield": 5.2,
+        "link": "https://www.gazprom-neft.ru/investors/"
+      },
+      {
+        "ticker": "PHOR",
+        "name": "ФосАгро",
+        "dividendYield": 3.3,
+        "link": "https://www.phosagro.com/investors/"
+      }
+    ]
+  },
+  "bonds": {
+    "items": [
+      {
+        "name": "АФК Система выпуск 7",
+        "issuer": "АФК Систем",
+        "coupon": 32.92,
+        "maturity": "2026-07-29",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A0ZYQY7/"
+      },
+      {
+        "name": "Эталон выпуск 002Р-01",
+        "issuer": "Эталон-Финанс",
+        "coupon": 27.18,
+        "maturity": "2026-02-20",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A105VU7/"
+      },
+      {
+        "name": "ГК Самолет выпуск 13",
+        "issuer": "ГК Самолет",
+        "coupon": 26.77,
+        "maturity": "2026-02-03",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107RZ0/"
+      },
+      {
+        "name": "Эталон-Финанс выпуск 3",
+        "issuer": "Эталон-Финанс",
+        "coupon": 12.0,
+        "maturity": "2026-09-15",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A103QH9/"
+      },
+      {
+        "name": "Брусника 002Р-05",
+        "issuer": "Брусника",
+        "coupon": 24.16,
+        "maturity": "2026-09-14",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A10B313/"
+      },
+      {
+        "name": "Биннофарм Групп 001P-03",
+        "issuer": "Биннофарм Групп",
+        "coupon": 25.36,
+        "maturity": "2025-09-15",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107E81/"
+      },
+      {
+        "name": "Биннофарм Групп 001P-03",
+        "issuer": "Биннофарм Групп",
+        "coupon": 23.33,
+        "maturity": "2025-09-15",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107E81/"
+      },
+      {
+        "name": "ПАО «КАМАЗ» БО-П14",
+        "issuer": "КАМАЗ",
+        "coupon": 22.86,
+        "maturity": "2025-09-15",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A10ASW4/"
+      },
+      {
+        "name": "МТС-Банк выпуск 001P-0",
+        "issuer": "МТС Банк",
+        "coupon": 26.93,
+        "maturity": "2026-10-21",
+        "link": "https://www.tbank.ru/invest/bonds/RU000A107456/"
+      },
+      {
+        "name": "ОФЗ 29007",
+        "issuer": "ОФЗ",
+        "coupon": 19.09,
+        "maturity": "2027-03-03",
+        "link": "https://www.tbank.ru/invest/bonds/SU29007RMFS0/"
+      }
+    ]
+  },
+  "mutualFunds": {
+    "items": [
+      {
+        "name": "Первая – Фонд российских облигаций",
+        "return1Y": 20.18,
+        "link": "https://www.pervaya.ru/funds/ROF/"
+      },
+      {
+        "name": "Альфа‑Капитал Управляемые облигации",
+        "return1Y": 19.8,
+        "link": "https://www.alfacapital.ru/funds/41"
+      },
+      {
+        "name": "Фонд Казначейский – ВИМ Инвестиции",
+        "return1Y": 19.1,
+        "link": "https://vim-asset.ru/funds/treasury/"
+      },
+      {
+        "name": "Первая – Фонд накопительный",
+        "return1Y": 18.22,
+        "link": "https://www.pervaya.ru/funds/NF/"
+      },
+      {
+        "name": "БКС Консервативный",
+        "return1Y": 16.02,
+        "link": "https://bcs.ru/am/funds/obligacii"
+      },
+      {
+        "name": "Райффайзен – Корпоративные облигации",
+        "return1Y": 15.01,
+        "link": "https://www.raiffeisen-capital.ru/funds/corpbonds/"
+      },
+      {
+        "name": "Ингосстрах – Инфляционный",
+        "return1Y": 3.03,
+        "link": "https://www.ingosinvest.ru/retail/funds/inflation/"
+      }
+    ]
+  },
+  "reits": {
+    "items": [
+      {
+        "name": "РФИЦ РЕЙТ",
+        "type": "REIT",
+        "yield": 8.5,
+        "price": 1250,
+        "minAmount": 10000,
+        "sector": "Коммерческая недвижимость",
+        "description": "Первый российский REIT",
+        "link": "https://rfci-reit.ru/",
+        "reliabilityLevel": "medium"
+      },
+      {
+        "name": "Сбер РЕЙТ Жилая недвижимость",
+        "type": "REIT",
+        "yield": 7.2,
+        "price": 980,
+        "minAmount": 5000,
+        "sector": "Жилая недвижимость",
+        "description": "REIT от Сбербанка",
+        "link": "https://www.sberbank.ru/",
+        "reliabilityLevel": "high"
+      }
+    ]
+  },
+  "crowdfunding": {
+    "items": [
+      {
+        "platform": "Поток",
+        "name": "автоматическая стратегия",
+        "type": "Business loans",
+        "targetReturn": 20.0,
+        "term": "—",
+        "minAmount": null,
+        "collected": null,
+        "description": "До 20% годовых",
+        "link": "https://potok.digital/",
+        "reliabilityLevel": "medium"
+      },
+      {
+        "platform": "Penenza",
+        "name": "краудлендинг бизнес",
+        "type": "Business loans",
+        "targetReturn": null,
+        "term": "—",
+        "minAmount": null,
+        "collected": null,
+        "description": "P2B платформа, надёжность ЦБ",
+        "link": "https://penenza.ru/",
+        "reliabilityLevel": "high"
+      }
+    ]
+  },
+  "disclaimer": "Данные предоставлены в информационных целях. Актуальные условия уточняйте у эмитентов и управляющих компаний."
